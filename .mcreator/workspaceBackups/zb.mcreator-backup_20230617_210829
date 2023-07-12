@@ -1,0 +1,114 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZbKuai",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_zb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zb/blockstates/block_of_zb.json",
+          "src/main/java/net/ianzb/zbcraft/world/features/ores/ZbKuaiFeature.java",
+          "src/main/resources/data/zb/worldgen/configured_feature/block_of_zb.json",
+          "src/main/java/net/ianzb/zbcraft/block/ZbKuaiBlock.java",
+          "src/main/resources/data/zb/worldgen/placed_feature/block_of_zb.json",
+          "src/main/resources/assets/zb/models/item/block_of_zb.json",
+          "src/main/resources/assets/zb/models/block/block_of_zb.json"
+        ]
+      }
+    },
+    {
+      "name": "Zb",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_of_zb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zb/models/item/item_of_zb.json",
+          "src/main/java/net/ianzb/zbcraft/item/ZbItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zbtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_of_zb",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Itemtoblock",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemtoblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zb/recipes/blocktoitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Blocktoitem",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocktoitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zb/recipes/blocktoitem.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.zb.block_of_zb": "Block of zb",
+      "item_group.zb.tab_of_zb": "Items in zbCraft",
+      "itemGroup.zb.tab_of_zb": "zbCraft",
+      "item.zb.item_of_zb": "zb"
+    },
+    "zh_cn": {
+      "block.zb.block_of_zb": "zb方块",
+      "item_group.zb.tab_of_zb": "zb的物品",
+      "itemGroup.zb.tab_of_zb": "zb工艺",
+      "item.zb.item_of_zb": "zb物品"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "zb",
+    "modName": "zbCraft",
+    "version": "0.0.3",
+    "description": "[zb工艺]zbCraft",
+    "author": "Ian_zb",
+    "websiteURL": "https://ianzb.github.io/",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "zhang_hao_tou_xiang_di_qing_tou_ming_",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "作者：Ianzb 工具：MCreator",
+    "modElementsPackage": "net.ianzb.zbcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
