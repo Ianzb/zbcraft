@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "zb",
+  "version": "0.0.3",
+  "name": "zbCraft",
+  "description": "[zb工艺]zbCraft",
+  "authors": [
+    "Ian_zb"
+  ],
+  "contact": {
+    "homepage": "https://ianzb.github.io/",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/zb/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ianzb.zbcraft.ZbMod"
+    ],
+    "client": [
+      "net.ianzb.zbcraft.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
