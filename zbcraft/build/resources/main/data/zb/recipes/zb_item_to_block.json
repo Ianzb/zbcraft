@@ -3,35 +3,35 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     },
     {
-      "item": "zb:zbitem"
+      "item": "zb:zb_item"
     }
   ],
   "result": {
-    "item": "zb:zbblock",
+    "item": "zb:zb_block",
     "count": 1
   }
 }

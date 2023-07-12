@@ -14,12 +14,12 @@ import net.ianzb.zbcraft.block.ZbblockBlock;
 import net.ianzb.zbcraft.ZbMod;
 
 public class ZbModBlocks {
-	public static Block ZBBLOCK;
-	public static Block ZBORE;
+	public static Block ZB_BLOCK;
+	public static Block ZB_ORE;
 
 	public static void load() {
-		ZBBLOCK = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(ZbMod.MODID, "zbblock"), new ZbblockBlock());
-		ZBORE = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(ZbMod.MODID, "zbore"), new ZboreBlock());
+		ZB_BLOCK = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(ZbMod.MODID, "zb_block"), new ZbblockBlock());
+		ZB_ORE = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(ZbMod.MODID, "zb_ore"), new ZboreBlock());
 	}
 
 	public static void clientLoad() {

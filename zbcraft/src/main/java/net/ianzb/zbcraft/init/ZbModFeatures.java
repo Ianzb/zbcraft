@@ -22,7 +22,7 @@ import java.util.function.Predicate;
 
 public class ZbModFeatures {
 	public static void load() {
-		register("zbore", new ZboreFeature(), ZboreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("zb_ore", new ZboreFeature(), ZboreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

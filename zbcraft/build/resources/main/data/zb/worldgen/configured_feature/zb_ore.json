@@ -1,5 +1,5 @@
 {
-  "type": "zb:zbore",
+  "type": "zb:zb_ore",
   "config": {
     "size": 4,
     "discard_chance_on_air_exposure": 0,
@@ -12,7 +12,7 @@
           }
         },
         "state": {
-          "Name": "zb:zbore"
+          "Name": "zb:zb_ore"
         }
       },
       {
@@ -23,7 +23,7 @@
           }
         },
         "state": {
-          "Name": "zb:zbore"
+          "Name": "zb:zb_ore"
         }
       },
       {
@@ -34,7 +34,7 @@
           }
         },
         "state": {
-          "Name": "zb:zbore"
+          "Name": "zb:zb_ore"
         }
       },
       {
@@ -45,7 +45,7 @@
           }
         },
         "state": {
-          "Name": "zb:zbore"
+          "Name": "zb:zb_ore"
         }
       }
     ]

@@ -43,6 +43,6 @@ public class ZbblockBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(ZbModBlocks.ZBBLOCK, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(ZbModBlocks.ZB_BLOCK, RenderType.solid());
 	}
 }

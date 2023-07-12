@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "zb:block/zbblock"
+      "model": "zb:block/zb_block"
     }
   }
 }

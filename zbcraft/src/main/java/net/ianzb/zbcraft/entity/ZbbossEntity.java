@@ -34,13 +34,13 @@ public class ZbbossEntity extends Zombie {
 	public ZbbossEntity(EntityType<ZbbossEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(2f);
-		xpReward = 0;
+		xpReward = 10000;
 		setNoAi(false);
 		setCustomName(Component.literal("zb Boss"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ZbModItems.ZBITEM));
-		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(ZbModItems.ZBITEM));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ZbModItems.ZB_ITEM));
+		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(ZbModItems.ZB_ITEM));
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Items.NETHERITE_HELMET));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Items.NETHERITE_CHESTPLATE));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Items.NETHERITE_LEGGINGS));
@@ -84,7 +84,7 @@ public class ZbbossEntity extends Zombie {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(ZbModBlocks.ZBBLOCK));
+		this.spawnAtLocation(new ItemStack(ZbModBlocks.ZB_BLOCK));
 	}
 
 	@Override
@@ -133,10 +133,12 @@ public class ZbbossEntity extends Zombie {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 1);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 0);
+		builder = builder.add(Attributes.MAX_HEALTH, 1000);
+		builder = builder.add(Attributes.ARMOR, 20);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 128);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 2);
 		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}

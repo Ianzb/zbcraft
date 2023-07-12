@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "zb:block/zbore"
+      "model": "zb:block/zb_ore"
     }
   }
 }

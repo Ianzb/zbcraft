@@ -1,5 +1,5 @@
 {
-  "parent": "zb:block/zbore",
+  "parent": "zb:block/zb_ore",
   "display": {
     "thirdperson": {
       "rotation": [

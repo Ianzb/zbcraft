@@ -18,17 +18,17 @@ import net.ianzb.zbcraft.ZbMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class ZbModItems {
-	public static Item ZBITEM;
-	public static Item ZBBLOCK;
-	public static Item ZBORE;
+	public static Item ZB_ITEM;
+	public static Item ZB_BLOCK;
+	public static Item ZB_ORE;
 	public static Item ZBBOSS_SPAWN_EGG;
 
 	public static void load() {
-		ZBITEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zbitem"), new ZbitemItem());
-		ZBBLOCK = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zbblock"), new BlockItem(ZbModBlocks.ZBBLOCK, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZBBLOCK));
-		ZBORE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zbore"), new BlockItem(ZbModBlocks.ZBORE, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZBORE));
+		ZB_ITEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_item"), new ZbitemItem());
+		ZB_BLOCK = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_block"), new BlockItem(ZbModBlocks.ZB_BLOCK, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZB_BLOCK));
+		ZB_ORE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_ore"), new BlockItem(ZbModBlocks.ZB_ORE, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZB_ORE));
 		ZBBOSS_SPAWN_EGG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zbboss_spawn_egg"), new SpawnEggItem(ZbModEntities.ZBBOSS, -11081, -6272502, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(ZBBOSS_SPAWN_EGG));
 	}

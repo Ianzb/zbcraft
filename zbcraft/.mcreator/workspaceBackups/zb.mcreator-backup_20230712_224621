@@ -6,16 +6,16 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zb_ore",
+      "registry_name": "zbore",
       "metadata": {
         "files": [
           "src/main/java/net/ianzb/zbcraft/world/features/ores/ZboreFeature.java",
-          "src/main/resources/assets/zb/blockstates/zb_ore.json",
+          "src/main/resources/assets/zb/blockstates/zbore.json",
           "src/main/java/net/ianzb/zbcraft/block/ZboreBlock.java",
-          "src/main/resources/data/zb/worldgen/placed_feature/zb_ore.json",
-          "src/main/resources/assets/zb/models/item/zb_ore.json",
-          "src/main/resources/data/zb/worldgen/configured_feature/zb_ore.json",
-          "src/main/resources/assets/zb/models/block/zb_ore.json"
+          "src/main/resources/data/zb/worldgen/configured_feature/zbore.json",
+          "src/main/resources/data/zb/worldgen/placed_feature/zbore.json",
+          "src/main/resources/assets/zb/models/item/zbore.json",
+          "src/main/resources/assets/zb/models/block/zbore.json"
         ]
       }
     },
@@ -25,13 +25,13 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zb_block",
+      "registry_name": "zbblock",
       "metadata": {
         "files": [
+          "src/main/resources/assets/zb/models/item/zbblock.json",
+          "src/main/resources/assets/zb/blockstates/zbblock.json",
           "src/main/java/net/ianzb/zbcraft/block/ZbblockBlock.java",
-          "src/main/resources/assets/zb/models/block/zb_block.json",
-          "src/main/resources/assets/zb/models/item/zb_block.json",
-          "src/main/resources/assets/zb/blockstates/zb_block.json"
+          "src/main/resources/assets/zb/models/block/zbblock.json"
         ]
       }
     },
@@ -41,11 +41,11 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zb_item",
+      "registry_name": "zbitem",
       "metadata": {
         "files": [
           "src/main/java/net/ianzb/zbcraft/item/ZbitemItem.java",
-          "src/main/resources/assets/zb/models/item/zb_item.json"
+          "src/main/resources/assets/zb/models/item/zbitem.json"
         ]
       }
     },
@@ -120,19 +120,19 @@
   "language_map": {
     "en_us": {
       "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
-      "block.zb.zb_ore": "zb ore",
+      "item.zb.zbitem": "zb item",
+      "block.zb.zbblock": "zb block",
       "item_group.zb.zbtab": "zbCraft items",
-      "entity.zb.zbboss": "Zbboss",
-      "item.zb.zb_item": "zb item",
-      "block.zb.zb_block": "zb block"
+      "entity.zb.zbboss": "Zb Boss",
+      "block.zb.zbore": "zb ore"
     },
     "zh_cn": {
       "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
-      "block.zb.zb_ore": "zb ore",
+      "item.zb.zbitem": "zb物品",
+      "block.zb.zbblock": "zb方块",
       "item_group.zb.zbtab": "zbCraft物品",
       "entity.zb.zbboss": "Zb Boss",
-      "item.zb.zb_item": "zb item",
-      "block.zb.zb_block": "zb block"
+      "block.zb.zbore": "zb矿石"
     }
   },
   "foldersRoot": {

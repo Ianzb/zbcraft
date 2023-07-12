@@ -44,6 +44,6 @@ public class ZboreBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(ZbModBlocks.ZBORE, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(ZbModBlocks.ZB_ORE, RenderType.solid());
 	}
 }

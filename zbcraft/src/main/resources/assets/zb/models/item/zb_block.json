@@ -1,5 +1,5 @@
 {
-  "parent": "zb:block/zbblock",
+  "parent": "zb:block/zb_block",
   "display": {
     "thirdperson": {
       "rotation": [
