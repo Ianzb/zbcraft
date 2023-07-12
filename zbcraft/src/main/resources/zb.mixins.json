@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ianzb.zbcraft.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"ZbModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

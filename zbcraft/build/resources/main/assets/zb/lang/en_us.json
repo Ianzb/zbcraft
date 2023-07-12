@@ -1,3 +1,8 @@
 {
-  "itemGroup.zb.tab_of_zb": "zbCraft"
+  "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
+  "item.zb.zbitem": "zb item",
+  "block.zb.zbblock": "zb block",
+  "item_group.zb.zbtab": "zbCraft items",
+  "entity.zb.zbboss": "Zb Boss",
+  "block.zb.zbore": "zb ore"
 }

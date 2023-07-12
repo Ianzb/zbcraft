@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    },
+    {
+      "item": "zb:zbitem"
+    }
+  ],
+  "result": {
+    "item": "zb:zbblock",
+    "count": 1
+  }
+}

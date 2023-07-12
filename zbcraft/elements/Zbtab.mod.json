@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "zbCraft items",
+    "icon": {
+      "value": "CUSTOM:Zbitem"
+    },
+    "showSearch": false
+  }
+}

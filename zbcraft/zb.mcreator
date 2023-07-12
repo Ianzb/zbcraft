@@ -1,10 +1,139 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Zbore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ianzb/zbcraft/world/features/ores/ZboreFeature.java",
+          "src/main/resources/assets/zb/blockstates/zbore.json",
+          "src/main/java/net/ianzb/zbcraft/block/ZboreBlock.java",
+          "src/main/resources/data/zb/worldgen/configured_feature/zbore.json",
+          "src/main/resources/data/zb/worldgen/placed_feature/zbore.json",
+          "src/main/resources/assets/zb/models/item/zbore.json",
+          "src/main/resources/assets/zb/models/block/zbore.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zb/models/item/zbblock.json",
+          "src/main/resources/assets/zb/blockstates/zbblock.json",
+          "src/main/java/net/ianzb/zbcraft/block/ZbblockBlock.java",
+          "src/main/resources/assets/zb/models/block/zbblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbitem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ianzb/zbcraft/item/ZbitemItem.java",
+          "src/main/resources/assets/zb/models/item/zbitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Zboretozbitem",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zboretozbitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zb/recipes/zb_ore_to_item.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbitemtoblock",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbitemtoblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zb/recipes/zb_item_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbblocktoitem",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbblocktoitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/zb/recipes/zb_block_to_item.json"
+        ]
+      }
+    },
+    {
+      "name": "Zbtab",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbtab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Zbboss",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbboss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ianzb/zbcraft/entity/ZbbossEntity.java",
+          "src/main/java/net/ianzb/zbcraft/client/renderer/ZbbossRenderer.java",
+          "src/main/resources/assets/zb/models/item/zbboss_spawn_egg.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {},
-    "zh_cn": {}
+    "en_us": {
+      "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
+      "item.zb.zbitem": "zb item",
+      "block.zb.zbblock": "zb block",
+      "item_group.zb.zbtab": "zbCraft items",
+      "entity.zb.zbboss": "Zb Boss",
+      "block.zb.zbore": "zb ore"
+    },
+    "zh_cn": {
+      "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
+      "item.zb.zbitem": "zb物品",
+      "block.zb.zbblock": "zb方块",
+      "item_group.zb.zbtab": "zbCraft物品",
+      "entity.zb.zbboss": "Zb Boss",
+      "block.zb.zbore": "zb矿石"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,14 +142,14 @@
   "workspaceSettings": {
     "modid": "zb",
     "modName": "zbCraft",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "[zb工艺]zbCraft",
-    "author": "Ian_zb",
+    "author": "Ianzb",
     "websiteURL": "https://ianzb.github.io/",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "zhang_hao_tou_xiang_di_qing_tou_ming_",
+    "modPicture": "logo2",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

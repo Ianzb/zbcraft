@@ -12,6 +12,9 @@
 */
 package net.ianzb.zbcraft;
 
+import net.ianzb.zbcraft.init.ZbModEntityRenderers;
+import net.ianzb.zbcraft.init.ZbModBlocks;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -21,5 +24,8 @@ public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 
+		ZbModBlocks.clientLoad();
+
+		ZbModEntityRenderers.load();
 	}
 }

@@ -1,0 +1,57 @@
+{
+  "mod_elements": [
+    {
+      "name": "Zbore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ianzb/zbcraft/world/features/ores/ZboreFeature.java",
+          "src/main/resources/assets/zb/blockstates/zbore.json",
+          "src/main/java/net/ianzb/zbcraft/block/ZboreBlock.java",
+          "src/main/resources/data/zb/worldgen/configured_feature/zbore.json",
+          "src/main/resources/data/zb/worldgen/placed_feature/zbore.json",
+          "src/main/resources/assets/zb/models/item/zbore.json",
+          "src/main/resources/assets/zb/models/block/zbore.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.zb.zbore": "zb ore"
+    },
+    "zh_cn": {
+      "block.zb.zbore": "zb ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "zb",
+    "modName": "zbCraft",
+    "version": "0.0.3",
+    "description": "[zb工艺]zbCraft",
+    "author": "Ian_zb",
+    "websiteURL": "https://ianzb.github.io/",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "zhang_hao_tou_xiang_di_qing_tou_ming_",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "作者：Ianzb 工具：MCreator",
+    "modElementsPackage": "net.ianzb.zbcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

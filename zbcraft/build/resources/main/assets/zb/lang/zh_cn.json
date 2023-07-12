@@ -1,3 +1,8 @@
 {
-  "itemGroup.zb.tab_of_zb": "zb工艺"
+  "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
+  "item.zb.zbitem": "zb物品",
+  "block.zb.zbblock": "zb方块",
+  "item_group.zb.zbtab": "zbCraft物品",
+  "entity.zb.zbboss": "Zb Boss",
+  "block.zb.zbore": "zb矿石"
 }

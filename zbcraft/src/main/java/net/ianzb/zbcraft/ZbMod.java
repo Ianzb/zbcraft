@@ -15,6 +15,12 @@ package net.ianzb.zbcraft;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.ianzb.zbcraft.init.ZbModTabs;
+import net.ianzb.zbcraft.init.ZbModItems;
+import net.ianzb.zbcraft.init.ZbModFeatures;
+import net.ianzb.zbcraft.init.ZbModEntities;
+import net.ianzb.zbcraft.init.ZbModBlocks;
+
 import net.fabricmc.api.ModInitializer;
 
 public class ZbMod implements ModInitializer {
@@ -24,6 +30,14 @@ public class ZbMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing ZbMod");
+
+		ZbModTabs.load();
+
+		ZbModEntities.load();
+		ZbModBlocks.load();
+		ZbModItems.load();
+
+		ZbModFeatures.load();
 
 	}
 }

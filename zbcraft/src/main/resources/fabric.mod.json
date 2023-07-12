@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "zb",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "name": "zbCraft",
   "description": "[zb工艺]zbCraft",
   "authors": [
-    "Ian_zb"
+    "Ianzb"
   ],
   "contact": {
     "homepage": "https://ianzb.github.io/",
     "sources": ""
   },
-  "license": "All Rights Reserved",
+  "license": "MIT License",
   "icon": "assets/zb/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -27,5 +27,8 @@
     "fabric": "*",
     "minecraft": "~1.20",
     "java": ">=17"
-  }
+  },
+  "mixins": [
+    "zb.mixins.json"
+  ]
 }
