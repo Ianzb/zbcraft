@@ -126,42 +126,26 @@
           "src/main/resources/assets/zb/particles/zbparticle.json"
         ]
       }
-    },
-    {
-      "name": "Zb",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zb",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/zb/worldgen/biome/zb.json",
-          "src/main/resources/data/zb/worldgen/placed_feature/zb_tree.json",
-          "src/main/resources/data/zb/worldgen/configured_feature/zb_tree.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.zb.zb": "zb biome",
-      "entity.zb.zb_boss": "Zbboss",
+      "entity.zb.zb_boss": "zb boss",
       "block.zb.zb_ore": "zb ore",
       "item_group.zb.zbtab": "zbCraft items",
       "item.zb.zb_item": "zb item",
       "block.zb.zb_block": "zb block",
-      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
+      "item.zb.zb_boss_spawn_egg": "zb boss Spawn Egg"
     },
     "zh_cn": {
-      "biome.zb.zb": "zb biome",
-      "entity.zb.zb_boss": "Zbboss",
-      "block.zb.zb_ore": "zb ore",
-      "item_group.zb.zbtab": "zbCraft items",
-      "item.zb.zb_item": "zb item",
-      "block.zb.zb_block": "zb block",
-      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
+      "entity.zb.zb_boss": "zb boss",
+      "block.zb.zb_ore": "zb矿石",
+      "item_group.zb.zbtab": "zbCraft物品",
+      "item.zb.zb_item": "zb物品",
+      "block.zb.zb_block": "zb方块",
+      "item.zb.zb_boss_spawn_egg": "zb boss刷怪蛋"
     }
   },
   "foldersRoot": {
@@ -171,7 +155,7 @@
   "workspaceSettings": {
     "modid": "zb",
     "modName": "zbCraft",
-    "version": "1.1.0",
+    "version": "1.0.2",
     "description": "[zb工艺]zbCraft",
     "author": "Ianzb",
     "websiteURL": "https://ianzb.github.io/",

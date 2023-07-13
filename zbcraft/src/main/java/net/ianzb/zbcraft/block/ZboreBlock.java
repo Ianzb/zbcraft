@@ -23,7 +23,8 @@ import java.util.List;
 import java.util.Collections;
 
 public class ZboreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(1f, 5f).requiresCorrectToolForDrops().pushReaction(PushReaction.DESTROY);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(5f).lightLevel(s -> 2).requiresCorrectToolForDrops()
+			.pushReaction(PushReaction.DESTROY);
 
 	public ZboreBlock() {
 		super(PROPERTIES);

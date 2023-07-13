@@ -155,8 +155,8 @@
   "workspaceSettings": {
     "modid": "zb",
     "modName": "zbCraft",
-    "version": "1.0.1",
-    "description": "[zb工艺]zbCraft",
+    "version": "1.1.0",
+    "description": "zbCraft",
     "author": "Ianzb",
     "websiteURL": "https://ianzb.github.io/",
     "license": "MIT License",

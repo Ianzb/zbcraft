@@ -113,26 +113,39 @@
           "src/main/resources/assets/zb/models/item/zb_boss_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "Zbparticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zbparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ianzb/zbcraft/client/particle/ZbparticleParticle.java",
+          "src/main/resources/assets/zb/particles/zbparticle.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.zb.zb_boss": "Zbboss",
+      "entity.zb.zb_boss": "zb boss",
       "block.zb.zb_ore": "zb ore",
       "item_group.zb.zbtab": "zbCraft items",
       "item.zb.zb_item": "zb item",
       "block.zb.zb_block": "zb block",
-      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
+      "item.zb.zb_boss_spawn_egg": "zb boss Spawn Egg"
     },
     "zh_cn": {
-      "entity.zb.zb_boss": "Zbboss",
-      "block.zb.zb_ore": "zb ore",
+      "entity.zb.zb_boss": "zb boss",
+      "block.zb.zb_ore": "zb矿石",
       "item_group.zb.zbtab": "zbCraft物品",
-      "item.zb.zb_item": "zb item",
-      "block.zb.zb_block": "zb block",
-      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
+      "item.zb.zb_item": "zb物品",
+      "block.zb.zb_block": "zb方块",
+      "item.zb.zb_boss_spawn_egg": "zb boss刷怪蛋"
     }
   },
   "foldersRoot": {
@@ -142,7 +155,7 @@
   "workspaceSettings": {
     "modid": "zb",
     "modName": "zbCraft",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "[zb工艺]zbCraft",
     "author": "Ianzb",
     "websiteURL": "https://ianzb.github.io/",

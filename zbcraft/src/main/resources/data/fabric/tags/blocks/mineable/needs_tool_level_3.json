@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "zb:zb_block"
+    "zb:zb_block",
+    "zb:zb_ore"
   ]
 }
