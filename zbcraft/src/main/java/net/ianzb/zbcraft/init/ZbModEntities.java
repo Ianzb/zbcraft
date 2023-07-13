@@ -19,13 +19,13 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
 public class ZbModEntities {
-	public static EntityType<ZbbossEntity> ZBBOSS;
+	public static EntityType<ZbbossEntity> ZB_BOSS;
 
 	public static void load() {
-		ZBBOSS = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(ZbMod.MODID, "zbboss"),
+		ZB_BOSS = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(ZbMod.MODID, "zb_boss"),
 				FabricEntityTypeBuilder.create(MobCategory.MONSTER, ZbbossEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).fireImmune().trackRangeBlocks(256).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		ZbbossEntity.init();
-		FabricDefaultAttributeRegistry.register(ZBBOSS, ZbbossEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ZB_BOSS, ZbbossEntity.createAttributes());
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

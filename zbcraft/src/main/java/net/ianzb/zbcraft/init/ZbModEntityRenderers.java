@@ -13,6 +13,6 @@ import net.fabricmc.api.EnvType;
 @Environment(EnvType.CLIENT)
 public class ZbModEntityRenderers {
 	public static void load() {
-		EntityRendererRegistry.register(ZbModEntities.ZBBOSS, ZbbossRenderer::new);
+		EntityRendererRegistry.register(ZbModEntities.ZB_BOSS, ZbbossRenderer::new);
 	}
 }

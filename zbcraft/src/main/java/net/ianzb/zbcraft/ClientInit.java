@@ -12,6 +12,7 @@
 */
 package net.ianzb.zbcraft;
 
+import net.ianzb.zbcraft.init.ZbModParticleTypes;
 import net.ianzb.zbcraft.init.ZbModEntityRenderers;
 import net.ianzb.zbcraft.init.ZbModBlocks;
 
@@ -23,6 +24,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		ZbModParticleTypes.clientLoad();
 
 		ZbModBlocks.clientLoad();
 

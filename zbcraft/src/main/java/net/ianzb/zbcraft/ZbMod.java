@@ -16,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.ianzb.zbcraft.init.ZbModTabs;
+import net.ianzb.zbcraft.init.ZbModParticleTypes;
 import net.ianzb.zbcraft.init.ZbModItems;
 import net.ianzb.zbcraft.init.ZbModFeatures;
 import net.ianzb.zbcraft.init.ZbModEntities;
@@ -30,7 +31,7 @@ public class ZbMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing ZbMod");
-
+		ZbModParticleTypes.load();
 		ZbModTabs.load();
 
 		ZbModEntities.load();

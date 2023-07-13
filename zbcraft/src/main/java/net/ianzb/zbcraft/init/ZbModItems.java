@@ -21,7 +21,7 @@ public class ZbModItems {
 	public static Item ZB_ITEM;
 	public static Item ZB_BLOCK;
 	public static Item ZB_ORE;
-	public static Item ZBBOSS_SPAWN_EGG;
+	public static Item ZB_BOSS_SPAWN_EGG;
 
 	public static void load() {
 		ZB_ITEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_item"), new ZbitemItem());
@@ -29,7 +29,7 @@ public class ZbModItems {
 		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZB_BLOCK));
 		ZB_ORE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_ore"), new BlockItem(ZbModBlocks.ZB_ORE, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(ZbModTabs.TAB_ZBTAB).register(content -> content.accept(ZB_ORE));
-		ZBBOSS_SPAWN_EGG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zbboss_spawn_egg"), new SpawnEggItem(ZbModEntities.ZBBOSS, -11081, -6272502, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(ZBBOSS_SPAWN_EGG));
+		ZB_BOSS_SPAWN_EGG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ZbMod.MODID, "zb_boss_spawn_egg"), new SpawnEggItem(ZbModEntities.ZB_BOSS, -11081, -6272502, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(ZB_BOSS_SPAWN_EGG));
 	}
 }

@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "zb_particle.png",
+    "animate": true,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.0,
+    "speedFactor": 0.5,
+    "gravity": 0.1,
+    "maxAge": 20,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

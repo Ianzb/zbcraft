@@ -6,16 +6,16 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zbore",
+      "registry_name": "zb_ore",
       "metadata": {
         "files": [
           "src/main/java/net/ianzb/zbcraft/world/features/ores/ZboreFeature.java",
-          "src/main/resources/assets/zb/blockstates/zbore.json",
+          "src/main/resources/assets/zb/blockstates/zb_ore.json",
           "src/main/java/net/ianzb/zbcraft/block/ZboreBlock.java",
-          "src/main/resources/data/zb/worldgen/configured_feature/zbore.json",
-          "src/main/resources/data/zb/worldgen/placed_feature/zbore.json",
-          "src/main/resources/assets/zb/models/item/zbore.json",
-          "src/main/resources/assets/zb/models/block/zbore.json"
+          "src/main/resources/data/zb/worldgen/placed_feature/zb_ore.json",
+          "src/main/resources/assets/zb/models/item/zb_ore.json",
+          "src/main/resources/data/zb/worldgen/configured_feature/zb_ore.json",
+          "src/main/resources/assets/zb/models/block/zb_ore.json"
         ]
       }
     },
@@ -25,13 +25,13 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zbblock",
+      "registry_name": "zb_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/zb/models/item/zbblock.json",
-          "src/main/resources/assets/zb/blockstates/zbblock.json",
           "src/main/java/net/ianzb/zbcraft/block/ZbblockBlock.java",
-          "src/main/resources/assets/zb/models/block/zbblock.json"
+          "src/main/resources/assets/zb/models/block/zb_block.json",
+          "src/main/resources/assets/zb/models/item/zb_block.json",
+          "src/main/resources/assets/zb/blockstates/zb_block.json"
         ]
       }
     },
@@ -41,11 +41,11 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zbitem",
+      "registry_name": "zb_item",
       "metadata": {
         "files": [
           "src/main/java/net/ianzb/zbcraft/item/ZbitemItem.java",
-          "src/main/resources/assets/zb/models/item/zbitem.json"
+          "src/main/resources/assets/zb/models/item/zb_item.json"
         ]
       }
     },
@@ -105,12 +105,12 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zbboss",
+      "registry_name": "zb_boss",
       "metadata": {
         "files": [
           "src/main/java/net/ianzb/zbcraft/entity/ZbbossEntity.java",
           "src/main/java/net/ianzb/zbcraft/client/renderer/ZbbossRenderer.java",
-          "src/main/resources/assets/zb/models/item/zbboss_spawn_egg.json"
+          "src/main/resources/assets/zb/models/item/zb_boss_spawn_egg.json"
         ]
       }
     }
@@ -119,20 +119,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
-      "item.zb.zbitem": "zb item",
-      "block.zb.zbblock": "zb block",
+      "entity.zb.zb_boss": "Zbboss",
+      "block.zb.zb_ore": "zb ore",
       "item_group.zb.zbtab": "zbCraft items",
-      "entity.zb.zbboss": "Zbboss",
-      "block.zb.zbore": "zb ore"
+      "item.zb.zb_item": "zb item",
+      "block.zb.zb_block": "zb block",
+      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
     },
     "zh_cn": {
-      "item.zb.zbboss_spawn_egg": "Zbboss Spawn Egg",
-      "item.zb.zbitem": "zb物品",
-      "block.zb.zbblock": "zb方块",
+      "entity.zb.zb_boss": "Zbboss",
+      "block.zb.zb_ore": "zb ore",
       "item_group.zb.zbtab": "zbCraft物品",
-      "entity.zb.zbboss": "Zbboss",
-      "block.zb.zbore": "zb矿石"
+      "item.zb.zb_item": "zb item",
+      "block.zb.zb_block": "zb block",
+      "item.zb.zb_boss_spawn_egg": "Zbboss Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -142,14 +142,14 @@
   "workspaceSettings": {
     "modid": "zb",
     "modName": "zbCraft",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "[zb工艺]zbCraft",
-    "author": "Ian_zb",
+    "author": "Ianzb",
     "websiteURL": "https://ianzb.github.io/",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "zhang_hao_tou_xiang_di_qing_tou_ming_",
+    "modPicture": "logo2",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
