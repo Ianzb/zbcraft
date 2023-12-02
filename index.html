@@ -1,42 +1,13 @@
-<html>
-
-<head>
-    <title>zbCraft</title>
-    <meta charset="utf-8">
-    <link href="img/logo1.png" rel="icon">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
-</head>
-
 <body>
-    <br><img src="img/title.png" height="75">
+    <div id="header" class="sticky-top"></div>
+    <h3 class="zb"><img src="./svg/rule.svg" height="30" width="25">更新日志</h3>
     <div class="zb">
-        用MCreator开发的模组，处于早期测试阶段<br>
-        <a href="history.html" class="btn btn-light">更新日志</a><br>
-        zb矿石：硬度5，爆炸抗性5，亮度2，仅钻石镐及以上会掉落物品，被推动后破坏，每区块平均生成1个矿石团簇，1块矿石，在20-40层之间生成<br>
-        zb块：通过9个zb物品合成，硬度25，爆炸抗性1500，亮度15，仅钻石镐及以上会掉落物品，无法被推动<br>
-        zb物品：通过zb矿石烧制20s而成，烧制经验奖励2，稀有度少见（黄色），物品破坏速度1.5，防火<br>
-        zbBoss：使用zb同款样式，掉落zb块，移动速度1，可行走高度2，生命值1000，掉落经验量10000，128格外开始攻击玩家，攻击力10，基础护甲值20，攻击击退2，击退抗性1，手持合金剑和盾牌，身穿下界合金套装，不怕水火，
-        zb群系：降水可能性0.3，温度1.5，每区块1颗树，会生成所有结构
+        2023-06-05：<a href="https://ianzb.github.io/zbcraft/history/zbmod 0.0.1 1.19.2 Fabric.jar">0.0.1</a>：最初版本，适用于Fabric1.19.2，拥有zb块（作为矿物生成），zb物品（为万能工具），zb画（1x1和2x2两种大小）<br>
+        2023-06-06：<a href="https://ianzb.github.io/zbcraft/history/zbCraft 0.0.2 1.19.2 Fabric.jar">0.0.2</a>：由于CurseForge审核原因将名称改为zbCraft，添加中文和英文双语言本地化<br>
+        2023-06-14：<a href="https://ianzb.github.io/zbcraft/history/zbCraft 0.0.3 1.20.1 Fabric.jar">0.0.3</a>：更新至1.20.1Fabric<br>
+        2023-07-12：<a href="https://ianzb.github.io/zbcraft/history/zbCraft 1.0.0 1.20.1 Fabric.jar">1.0.0</a>：重制模组，添加图标，优化纹理，添加zb矿石，zbBoss<br>
+        2023-07-13：1.1.0：zbBoss会在末地高岛生成，优化刷怪蛋汉化，添加zb粒子，优化zbBossAI，会躲避爆炸实体，手持合金剑和盾牌，优化空闲速度和行为，降低zb矿石数量，修复zb矿石数值异常的bug<br>
     </div>
-    <div class="zb">
-        <h5>开发信息</h5>
-        作者：<a href="https://ianzb.github.io/" target="_blank">Ianzb</a><br>
-        环境：Windows 11 Pro for Workstations<br>
-        软件：Visual Studio Code，MCreator，Git<br>
-        语言：Java 17，HTML 5，CSS 3，JavaScript<br>
-        <a href="https://github.com/Ianzb/zbcraft" target="_blank">Github</a>提供网站服务器<br>
-        <a href="https://v5.bootcss.com/" target="_blank">Bootstrap</a>提供网站UI组件库<br>
-        <a href="https://www.flaticon.com/uicons" target="_blank">Flaticon</a>提供网站图标<br>
-    </div>
-    <ul class="nav nav-pills nav-justified zb-top">
-        <li class="nav-item">
-            <a class="nav-link disabled">
-                <font color="black">By Ianzb 2023</font>
-            </a>
-        </li>
-    </ul>
+    <div id="footer"></div>
+    <script>load()</script>
 </body>
-
-</html>
