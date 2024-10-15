@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "zbcraft",
+  "version": "${version}",
+  "name": "zbcraft",
+  "description": "A personal Minecraft mod adds elements about Ianzb.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/zbcraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.zb.zbcraft.Zbcraft"
+    ],
+    "client": [
+      "org.zb.zbcraft.client.ZbcraftClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
