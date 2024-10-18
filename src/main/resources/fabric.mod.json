@@ -12,9 +12,6 @@
   "entrypoints": {
     "main": [
       "org.zb.zbcraft.Zbcraft"
-    ],
-    "client": [
-      "org.zb.zbcraft.client.ZbcraftClient"
     ]
   },
   "depends": {
